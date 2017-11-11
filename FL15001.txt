@@ -1,0 +1,4 @@
+usuario: administrador
+pass: 12345
+
+segunda practica de fpi ajax
