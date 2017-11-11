@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <style>
+            .centrar{
+                position: absolute;
+                left: 540px;
+                top: 60px;
+            }
+            .btn{
+                background: black;
+                color: white;
+                font-size: 22px;
+                position: absolute;
+                left: 45px;
+                padding: 5px 50px;
+                overflow: hidden;
+            }
+            .letras{
+                font-size: 20px;
+                color: white;
+            }
+            .body{
+                background:   #0F6589;
+            }
+            #h{
+                position: absolute;
+                left: 540px;
+            }
+            .panel{
+                font-size: 20px;
+            }
+            
+        </style>
+    </head>
+    <body class="body">
+         <h1 id="h">Iniciar Sesion</h1>
+        <form id="form1" class="centrar">
+            <div id="d1">
+            <p class="letras">Usuario:</p>
+            <input type="text" name="usuario" placeholder="Escribe tu usuario" class="panel"/>
+            <p class="letras">Contraseña:</p>
+            <input type="password" name="pass" placeholder="password" class="panel"/><br><br>
+            <input value="Enviar" type="submit" class="btn"/>
+            </div>
+        </form>
+        <script src="ajax.js"></script>
+        <!--<input value="Enviar" id="btn" type="button" onclick="dese()"/>-->
+    </body>
+</html>
